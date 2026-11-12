@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Micii Cuceritori · Trailer</title>
+<meta name="description" content="Răspunde corect și cucerește România, județ cu județ. Joacă cu prietenii sau cu boții, gratuit pe iPhone.">
+<meta property="og:title" content="Micii Cuceritori · Trailer">
+<meta property="og:description" content="Răspunde corect și cucerește România, județ cu județ. Joacă cu prietenii sau cu boții, gratuit pe iPhone.">
+<meta property="og:image" content="poster.jpg">
+<style>
+  :root { --bg: #f3e7cf; --card: #fffaf0; --ink: #211c1a; --muted: #6b605a; --accent: #d2402f; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #161311; --card: #231d19; --ink: #faf2e0; --muted: #b3a89c; } }
+  :root[data-theme="dark"] { --bg: #161311; --card: #231d19; --ink: #faf2e0; --muted: #b3a89c; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: ui-rounded, -apple-system, system-ui, sans-serif; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 32px 16px 56px; display: flex; flex-direction: column; gap: 26px; }
+  h1 { margin: 0; font-size: clamp(32px, 7vw, 52px); font-weight: 900; }
+  .bar { width: 72px; height: 7px; border-radius: 4px; background: var(--accent); margin-top: 8px; }
+  p { margin: 12px 0 0; color: var(--muted); font-weight: 600; line-height: 1.45; }
+  .card { background: var(--card); border-radius: 22px; padding: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.12); }
+  .card h2 { margin: 4px 6px 12px; font-size: 18px; font-weight: 800; }
+  video { width: 100%; display: block; border-radius: 14px; background: #000; }
+  .row { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  @media (min-width: 760px) { .row { grid-template-columns: 1fr 2fr; align-items: start; } }
+  .vertical video { max-height: 80vh; width: auto; max-width: 100%; margin: 0 auto; }
+  footer { color: var(--muted); font-size: 13px; }
+  a { color: var(--accent); font-weight: 700; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header><h1>Micii Cuceritori</h1><div class="bar"></div><p>Răspunde corect și cucerește România, județ cu județ. Joacă cu prietenii sau cu boții, gratuit pe iPhone.</p></header>
+  <section class="row">
+    <div class="card vertical"><h2>Clip vertical · 20 s</h2><video controls playsinline preload="metadata" poster="poster-v.jpg" src="micii-cuceritori-20s-vertical.mp4"></video></div>
+    <div class="card"><h2>Trailer · 30 s</h2><video controls playsinline preload="metadata" poster="poster.jpg" src="micii-cuceritori-30s.mp4"></video></div>
+  </section>
+  <footer>Muzica: „Children Ukulele Upbeat Positive Pop Rock” de ikoliks (Pixabay). <a href="../">Confidențialitate și suport</a></footer>
+</main>
+</body>
+</html>
